@@ -16,6 +16,9 @@ export default function RoadshowPage() {
         {/* ── Paragraf pembuka ──────────────────────────── */}
         <section className="max-w-6xl mx-auto px-6 pt-14 pb-12 border-b border-gray-100">
           <div>
+                  <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-primary-50 text-primary-800 rounded-full text-xs font-medium mb-4">
+        Program Lentera Siber
+      </div>
             <h1 className="text-3xl font-medium text-gray-900 tracking-tight leading-tight mb-4">
               Roadshow Lentera Siber
             </h1>

@@ -86,9 +86,9 @@ export default function WorkshopPage() {
 
     {/* Kiri: Deskripsi (2/3) */}
     <div className="md:col-span-2 order-1">
-      {/* <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-primary-50 text-primary-800 rounded-full text-xs font-medium mb-4">
-        Program Edukasi
-      </div> */}
+      <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-primary-50 text-primary-800 rounded-full text-xs font-medium mb-4">
+        Program Lentera Siber
+      </div>
       <h1 className="text-3xl font-medium text-gray-900 tracking-tight leading-tight mb-4">
         Workshop Lentera Siber
       </h1>

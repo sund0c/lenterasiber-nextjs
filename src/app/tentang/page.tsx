@@ -1,4 +1,5 @@
 import Shell from '@/components/layout/Shell'
+import ContactForm from '@/components/ui/ContactForm'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -93,35 +94,7 @@ Harapannya, dengan Lentera Siber, setiap pengguna teknologi informasi dapat meme
   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
 
     {/* Form */}
-    <div className="border border-gray-100 rounded-2xl p-6 flex flex-col gap-4">
-      <div className="flex flex-col gap-1.5">
-        <label className="text-xs text-gray-500">Nama</label>
-        <input
-          type="text"
-          placeholder="Nama lengkap kamu"
-          className="w-full px-4 py-2.5 text-sm border border-gray-200 rounded-lg outline-none focus:border-primary-400 transition-colors"
-        />
-      </div>
-      <div className="flex flex-col gap-1.5">
-        <label className="text-xs text-gray-500">Email</label>
-        <input
-          type="email"
-          placeholder="email@contoh.com"
-          className="w-full px-4 py-2.5 text-sm border border-gray-200 rounded-lg outline-none focus:border-primary-400 transition-colors"
-        />
-      </div>
-      <div className="flex flex-col gap-1.5">
-        <label className="text-xs text-gray-500">Pesan</label>
-        <textarea
-          rows={4}
-          placeholder="Tulis pesanmu di sini..."
-          className="w-full px-4 py-2.5 text-sm border border-gray-200 rounded-lg outline-none focus:border-primary-400 transition-colors resize-none"
-        />
-      </div>
-      <button className="w-full py-2.5 bg-primary-600 text-primary-50 rounded-lg text-sm hover:bg-primary-800 transition-colors">
-        Kirim pesan
-      </button>
-    </div>
+    <ContactForm />
 
     {/* Map */}
     <div className="border border-gray-100 rounded-2xl overflow-hidden h-full min-h-80">

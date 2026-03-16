@@ -105,6 +105,9 @@ export default async function KabarPage({
 
         {/* Header */}
         <div className="mb-8">
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-primary-50 text-primary-800 rounded-full text-xs font-medium mb-4">
+        Literasi Digital
+      </div>
           <h1 className="text-3xl font-medium text-gray-900 tracking-tight mb-2">Kabar Lentera</h1>
           <p className="text-gray-400 text-sm">
             Tulisan sederhana terkait keamanan siber dan sandi untuk memastikan kita semua selalu
